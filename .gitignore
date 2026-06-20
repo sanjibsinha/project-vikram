@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Keep Git settings
+!.gitignore
+!README.md
+
+# Keep documentation
+!docs/
+!docs/**
+
+# Keep plugin
+!backend/
+!backend/wordpress/
+!backend/wordpress/public/
+!backend/wordpress/public/wp-content/
+!backend/wordpress/public/wp-content/plugins/
+!backend/wordpress/public/wp-content/plugins/vikram-platform/
+!backend/wordpress/public/wp-content/plugins/vikram-platform/**
+
+# Keep DDEV
+!backend/wordpress/.ddev/
+!backend/wordpress/.ddev/**

@@ -1,0 +1,13 @@
+{
+    "name": "project-vikram/platform",
+    "description": "Backend platform for Vikram Reader",
+    "type": "wordpress-plugin",
+
+    "autoload": {
+        "psr-4": {
+            "ProjectVikram\\": "app/"
+        }
+    },
+
+    "require": {}
+}
